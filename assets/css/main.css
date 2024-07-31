@@ -462,17 +462,28 @@ body{
     color: #333;
 }
 
-/* CSS for the credit note with light gradient background */
-.credit-note {
-    position: fixed;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: linear-gradient(135deg, #f0f0f0, #e0e0e0); /* Light gradient background */
-    color: #333; /* Dark text for good contrast */
-    padding: 5px 15px;
-    border-radius: 5px;
-    font-size: 14px;
-    z-index: 1000; /* Ensure it appears above other content */
-}
+        /* Style for the credit note */
+        .credit-note {
+            position: fixed;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #f0f0f0, #e0e0e0); /* Light gradient background */
+            color: #333; /* Dark text for good contrast */
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold; /* Make text bold */
+            z-index: 1000; /* Ensure it appears above other content */
+            text-align: center;
+        }
+
+        .credit-note a {
+            color: #333; /* Text color for the link */
+            text-decoration: none; /* Remove underline from the link */
+        }
+
+        .credit-note a:hover {
+            text-decoration: underline; /* Optional: add underline on hover */
+        }
   /*# sourceMappingURL=main.css.map */
