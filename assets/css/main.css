@@ -462,20 +462,17 @@ body{
     color: #333;
 }
 
-        /* Style for the credit note */
-        .credit-note {
-            position: fixed;
-            top: 10px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 5px 15px;
-            border-radius: 5px;
-            font-size: 14px;
-            z-index: 1000; /* Ensure it appears above other content */
-        }
-
-
-
+/* CSS for the credit note with light gradient background */
+.credit-note {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0); /* Light gradient background */
+    color: #333; /* Dark text for good contrast */
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
   /*# sourceMappingURL=main.css.map */
