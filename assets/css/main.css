@@ -402,20 +402,20 @@ body{
 
 .select-menu .select-btn {
     display: flex;
-    height: 55px;
+    height: 60px; /* زيادة الارتفاع */
     background: #fff;
-    padding: 20px;
-    font-size: 18px;
+    padding: 24px; /* زيادة المسافة الداخلية */
+    font-size: 20px; /* زيادة حجم النص */
     font-weight: 400;
     border-radius: 8px;
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 6px rgba(0,0,0,0.2); /* زيادة تأثير الظل */
 }
 
 .select-btn i {
-    font-size: 25px;
+    font-size: 30px; /* زيادة حجم الأيقونة */
     transition: 0.3s;
 }
 
@@ -425,11 +425,11 @@ body{
 
 .select-menu .options {
     position: relative;
-    padding: 20px;
-    margin-top: 10px;
+    padding: 24px; /* زيادة المسافة الداخلية */
+    margin-top: 15px; /* زيادة المسافة العلوية */
     border-radius: 8px;
     background: #fff;
-    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    box-shadow: 0 0 6px rgba(0,0,0,0.2); /* زيادة تأثير الظل */
     display: none;
 }
 
@@ -439,13 +439,13 @@ body{
 
 .options .option {
     display: flex;
-    height: 60px; /* زيادة الارتفاع */
+    height: 70px; /* زيادة الارتفاع */
     cursor: pointer;
-    padding: 0 24px; /* زيادة المسافة الداخلية */
+    padding: 0 30px; /* زيادة المسافة الداخلية */
     border-radius: 8px;
     align-items: center;
     background: #fff;
-    margin-bottom: 15px; /* زيادة المسافة بين العناصر */
+    margin-bottom: 20px; /* زيادة المسافة بين العناصر */
 }
 
 .options .option:last-child {
@@ -457,14 +457,15 @@ body{
 }
 
 .option i {
-    font-size: 28px; /* زيادة حجم الأيقونة */
-    margin-right: 20px; /* زيادة المسافة بين الأيقونة والنص */
+    font-size: 32px; /* زيادة حجم الأيقونة */
+    margin-right: 24px; /* زيادة المسافة بين الأيقونة والنص */
 }
 
 .option .option-text {
-    font-size: 20px; /* زيادة حجم النص */
+    font-size: 22px; /* زيادة حجم النص */
     color: #333;
 }
+
 
   
   /*# sourceMappingURL=main.css.map */
