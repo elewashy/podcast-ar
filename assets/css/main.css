@@ -462,43 +462,45 @@ body{
     color: #333;
 }
 
-        /* Style for the credit notes */
-        .credit-note {
-            position: fixed;
-            left: 50%;
-            transform: translateX(-50%);
-            background: linear-gradient(135deg, #f0f0f0, #e0e0e0); /* Light gradient background */
-            color: #333; /* Dark text for good contrast */
-            padding: 5px 15px;
-            border-radius: 5px;
-            font-size: 14px;
-            font-weight: bold; /* Make text bold */
-            z-index: 1000; /* Ensure it appears above other content */
-            text-align: center;
-        }
+/* Style for the credit notes */
+.credit-note {
+    position: fixed;
+    top: 10px; /* Distance from the top of the screen */
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0); /* Light gradient background */
+    color: #333; /* Dark text for good contrast */
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold; /* Make text bold */
+    z-index: 1000; /* Ensure it appears above other content */
+    text-align: center;
+}
 
-        .credit-note a {
-            color: #333; /* Text color for the link */
-            text-decoration: none; /* Remove underline from the link */
-        }
+.credit-note a {
+    color: #333; /* Text color for the link */
+    text-decoration: none; /* Remove underline from the link */
+}
 
-        .credit-note a:hover {
-            text-decoration: underline; /* Optional: add underline on hover */
-        }
+.credit-note a:hover {
+    text-decoration: underline; /* Optional: add underline on hover */
+}
 
-        .large-note {
-            position: fixed;
-            top: 60px; /* Adjust this value to place it below the first note */
-            left: 50%;
-            transform: translateX(-50%);
-            background: #fffbf0; /* Light color background for the large note */
-            color: #333; /* Dark text for good contrast */
-            padding: 15px 20px;
-            border-radius: 5px;
-            font-size: 18px; /* Larger font size */
-            font-weight: bolder; /* Make text bolder */
-            z-index: 1000; /* Ensure it appears above other content */
-            text-align: center;
-            max-width: 90%; /* Ensure it doesn't stretch too wide */
-        }
+.large-note {
+    position: fixed;
+    top: 60px; /* Adjust this value to position it below the first note */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fffbf0; /* Light color background for the large note */
+    color: #333; /* Dark text for good contrast */
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 18px; /* Larger font size */
+    font-weight: bolder; /* Make text bolder */
+    z-index: 1000; /* Ensure it appears above other content */
+    text-align: center;
+    max-width: 90%; /* Ensure it doesn't stretch too wide */
+}
+
   /*# sourceMappingURL=main.css.map */
