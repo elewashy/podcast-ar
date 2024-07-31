@@ -395,11 +395,12 @@ body {
 body{
     background: #000000;
 }
-.select-menu{
+.select-menu {
     width: 380px;
     margin: 140px auto;
 }
-.select-menu .select-btn{
+
+.select-menu .select-btn {
     display: flex;
     height: 55px;
     background: #fff;
@@ -412,14 +413,17 @@ body{
     justify-content: space-between;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
-.select-btn i{
+
+.select-btn i {
     font-size: 25px;
     transition: 0.3s;
 }
-.select-menu.active .select-btn i{
+
+.select-menu.active .select-btn i {
     transform: rotate(-180deg);
 }
-.select-menu .options{
+
+.select-menu .options {
     position: relative;
     padding: 20px;
     margin-top: 10px;
@@ -428,10 +432,12 @@ body{
     box-shadow: 0 0 3px rgba(0,0,0,0.1);
     display: none;
 }
-.select-menu.active .options{
+
+.select-menu.active .options {
     display: block;
 }
-.options .option{
+
+.options .option {
     display: flex;
     height: 55px;
     cursor: pointer;
@@ -439,15 +445,23 @@ body{
     border-radius: 8px;
     align-items: center;
     background: #fff;
+    margin-bottom: 10px; /* Add margin between options */
 }
-.options .option:hover{
+
+.options .option:last-child {
+    margin-bottom: 0; /* Remove margin for the last item */
+}
+
+.options .option:hover {
     background: #F2F2F2;
 }
-.option i{
+
+.option i {
     font-size: 25px;
     margin-right: 12px;
 }
-.option .option-text{
+
+.option .option-text {
     font-size: 18px;
     color: #333;
 }
