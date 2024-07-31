@@ -439,13 +439,13 @@ body{
 
 .options .option {
     display: flex;
-    height: 55px;
+    height: 60px; /* زيادة الارتفاع */
     cursor: pointer;
-    padding: 0 20px; /* زيادة المسافة داخل العنصر */
+    padding: 0 24px; /* زيادة المسافة الداخلية */
     border-radius: 8px;
     align-items: center;
     background: #fff;
-    margin-bottom: 10px; /* المسافة بين العناصر */
+    margin-bottom: 15px; /* زيادة المسافة بين العناصر */
 }
 
 .options .option:last-child {
@@ -457,12 +457,12 @@ body{
 }
 
 .option i {
-    font-size: 25px;
-    margin-right: 16px; /* زيادة المسافة بين الأيقونة والنص */
+    font-size: 28px; /* زيادة حجم الأيقونة */
+    margin-right: 20px; /* زيادة المسافة بين الأيقونة والنص */
 }
 
 .option .option-text {
-    font-size: 18px;
+    font-size: 20px; /* زيادة حجم النص */
     color: #333;
 }
 
