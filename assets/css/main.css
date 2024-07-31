@@ -395,74 +395,60 @@ body {
 body{
     background: #000000;
 }
-.select-menu {
+.select-menu{
     width: 380px;
     margin: 140px auto;
 }
-
-.select-menu .select-btn {
+.select-menu .select-btn{
     display: flex;
-    height: 60px; /* زيادة الارتفاع */
+    height: 55px;
     background: #fff;
-    padding: 24px; /* زيادة المسافة الداخلية */
-    font-size: 20px; /* زيادة حجم النص */
+    padding: 20px;
+    font-size: 18px;
     font-weight: 400;
     border-radius: 8px;
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
-    box-shadow: 0 0 6px rgba(0,0,0,0.2); /* زيادة تأثير الظل */
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
-
-.select-btn i {
-    font-size: 30px; /* زيادة حجم الأيقونة */
+.select-btn i{
+    font-size: 25px;
     transition: 0.3s;
 }
-
-.select-menu.active .select-btn i {
+.select-menu.active .select-btn i{
     transform: rotate(-180deg);
 }
-
-.select-menu .options {
+.select-menu .options{
     position: relative;
-    padding: 24px; /* زيادة المسافة الداخلية */
-    margin-top: 15px; /* زيادة المسافة العلوية */
+    padding: 20px;
+    margin-top: 10px;
     border-radius: 8px;
     background: #fff;
-    box-shadow: 0 0 6px rgba(0,0,0,0.2); /* زيادة تأثير الظل */
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
     display: none;
 }
-
-.select-menu.active .options {
+.select-menu.active .options{
     display: block;
 }
-
-.options .option {
+.options .option{
     display: flex;
-    height: 70px; /* زيادة الارتفاع */
+    height: 55px;
     cursor: pointer;
-    padding: 0 30px; /* زيادة المسافة الداخلية */
+    padding: 0 16px;
     border-radius: 8px;
     align-items: center;
     background: #fff;
-    margin-bottom: 20px; /* زيادة المسافة بين العناصر */
 }
-
-.options .option:last-child {
-    margin-bottom: 0; /* إزالة المسافة بعد العنصر الأخير */
-}
-
-.options .option:hover {
+.options .option:hover{
     background: #F2F2F2;
 }
-
-.option i {
-    font-size: 32px; /* زيادة حجم الأيقونة */
-    margin-right: 24px; /* زيادة المسافة بين الأيقونة والنص */
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
 }
-
-.option .option-text {
-    font-size: 22px; /* زيادة حجم النص */
+.option .option-text{
+    font-size: 18px;
     color: #333;
 }
 
