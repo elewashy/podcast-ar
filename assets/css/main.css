@@ -487,20 +487,4 @@ body{
     text-decoration: underline; /* Optional: add underline on hover */
 }
 
-.large-note {
-    position: fixed;
-    top: 60px; /* Adjust this value to position it below the first note */
-    left: 50%;
-    transform: translateX(-50%);
-    background: #fffbf0; /* Light color background for the large note */
-    color: #333; /* Dark text for good contrast */
-    padding: 15px 20px;
-    border-radius: 5px;
-    font-size: 18px; /* Larger font size */
-    font-weight: bolder; /* Make text bolder */
-    z-index: 1000; /* Ensure it appears above other content */
-    text-align: center;
-    max-width: 90%; /* Ensure it doesn't stretch too wide */
-}
-
   /*# sourceMappingURL=main.css.map */
